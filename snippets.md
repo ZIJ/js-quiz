@@ -1,11 +1,11 @@
 ```javascript
 var scope = "global";
-  function checkScope(){
-    var scope = "local";
-    console.log(scope);
-  }
-  checkScope();
+function checkScope(){
+  var scope = "local";
   console.log(scope);
+}
+checkScope();
+console.log(scope);
 ```
 
 ```javascript
