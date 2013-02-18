@@ -1,4 +1,15 @@
 ```javascript
+var a;
+var b = null;
+var c = false;
+var d = "0"
+console.log(a == b);
+console.log(a === b);
+console.log(c == d);
+console.log(c === d);
+```
+
+```javascript
 var scope = "global";
 function checkScope(){
   var scope = "local";
